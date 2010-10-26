@@ -1,12 +1,12 @@
 [submodule "seed"]
 	path = seed
-	url = git://github.com/fungos/seed.git
+	url = git@github.com:fungos/seed.git
 [submodule "seedtools"]
 	path = seedtools
-	url = git://github.com/fungos/seedtools.git
+	url = git@github.com:fungos/seedtools.git
 [submodule "seeddemos"]
 	path = seeddemos
-	url = git://github.com/fungos/seeddemos.git
+	url = git@github.com:fungos/seeddemos.git
 [submodule "seedbaker"]
 	path = seedbaker
 	url = git://github.com/fungos/seedbaker.git
