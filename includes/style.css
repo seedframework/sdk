@@ -126,6 +126,11 @@ hr {
     color: Gray;
 }
 
+div#menu {
+	width: 100%;
+	text-align: center;
+}
+
 
 ul#menu {
 	width: 100%;
