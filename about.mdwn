@@ -5,4 +5,10 @@ permalink: /about/
 section: about
 ---
 
-Seed About Here
+<h1>Contacts<h1>>
+For licensing questions contact: licensing@seedframework.org
+For other informations please contact: contact@seedframework.org
+
+<h1>Mailing lists</h1>
+Seed users: seed-users@googlegroups.com
+Seed developers: seed-dev@googlegroups.com
