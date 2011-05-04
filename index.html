@@ -15,25 +15,18 @@ section: home
 						<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
 						or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
 					</div>
-
+					<!-- BEGIN POST CONTENT -->
 {{ post.content }}
-	
+					<!-- END POST CONTENT -->
 					<div class="details">
 					  <p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
 					    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
 					    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
-					
-{% if post.categories == 'podcast' %}
-					    &bull; <a href="{{ post.enclosure }}">Direct Download</a>
-					    &bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
-{% endif %}
-					
 					    <em>tags:</em> {% for t in post.tags %}
 					    <a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
 					    {% endfor %}</p>
 					</div>
 {% endfor %}
-	
 					<div class="clear"></div>
 					
 {% for post in site.posts limit:0 offset:1 %}
@@ -43,19 +36,13 @@ section: home
 						<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
 						or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
 					</div>
-					
+					<!-- BEGIN POST CONTENT -->
 {{ post.content }}
-					
+					<!-- END POST CONTENT -->
 					<div class="details">
 						<p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
 						&bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
 						&bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
-						
-{% if post.categories == 'podcast' %}
-						&bull; <a href="{{ post.enclosure }}">Direct Download</a>
-						&bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
-{% endif %}
-						
 						<em>tags:</em> {% for t in post.tags %}
 						<a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
 {% endfor %}
