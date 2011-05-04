@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to the Cyborg Institute
+title: Seed Framework
 ---
 
 {% include content-index.mdwn %}
@@ -10,8 +10,7 @@ title: Welcome to the Cyborg Institute
 {% for post in site.posts limit:1 %}
 
 <div class="content-title">
-{% if post.categories == 'blog' %}Current Cyblog Post
-{% elsif post.categories == 'podcast' %}Current Podcast
+{% if post.categories == 'blog' %}Current blog Post
 {% endif %} {{ post.title }}</div>
 <div class="meta">If you enjoy this post from
   our <a href="http://www.seedframework.org/blog/">blog</a>,
@@ -45,7 +44,7 @@ title: Welcome to the Cyborg Institute
 {% for post in site.posts limit:0 offset:1 %}
 
 <div class="content-title">
-{% if post.categories == 'blog' %}Recent Cyblog Post
+{% if post.categories == 'blog' %}Recent blog Post
 {% elsif post.categories == 'podcast' %}Recent Podcast
 {% endif %} {{ post.title }}</div>
 <div class="meta">If you enjoy this post,
