@@ -1,10 +1,10 @@
 ---
 title: Team
 layout: default
-permalink: /team/
+permalink: /contact/
 section: contact
 ---
 
-Danny Angelo Carminati Grein
-Everton Fernando Patitucci da Silva
-Rafael Eduardo Gonchor
+Danny Angelo Carminati Grein<br />
+Everton Fernando Patitucci da Silva<br />
+Rafael Eduardo Gonchor<br />
