@@ -1,5 +1,5 @@
-						<div id="content-menu">
-							<p>some text</p>
-							<div class="details">&mdash; <a href="http://fungos.github.com/sdk/contact/">the Seed Framework Team</a></div>
-							<div class="clear"></div>
-						</div>
+					<div id="content-menu">
+						<p>some text</p>
+						<div class="details">&mdash; <a href="http://fungos.github.com/sdk/contact/">the Seed Framework Team</a></div>
+						<div class="clear"></div>
+					</div>
