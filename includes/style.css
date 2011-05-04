@@ -89,15 +89,16 @@ hr {
     color:#590000;
     margin-top: 10px;
 }
-.content h2
-{
+.content h1 {
+	color:#590000;
+}
+.content h2 {
 	color:#590000;
 }
 .content-title a {
     color:#598D32;
     text-decoration:none;
 }
-
 #content-menu {
     font-size: .8969em;
     padding: 0px 1.5em;
