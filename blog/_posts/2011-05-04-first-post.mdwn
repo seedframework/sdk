@@ -1,8 +1,9 @@
 ---
 title: First post!
 tags: [site news]
-byline: Danny Angelo Carminaty Grein
+byline: Danny Angelo Carminati Grein
 layout: post
+section: home
 ---
 
 Hello and Welcome! 
