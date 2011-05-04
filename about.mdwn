@@ -2,6 +2,7 @@
 title: About 
 layout: default
 permalink: /about/
+section: about
 ---
 
 Seed About Here
