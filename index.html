@@ -4,9 +4,7 @@ title: Seed Framework
 section: home
 ---
 {% include content-index.mdwn %}
-
 				<div class="clear"></div>
-				
 {% for post in site.posts limit:1 %}
 				<div class="content-title">{% if post.categories == 'blog' %}Current blog Post{% endif %} {{ post.title }}</div>
 				<div class="meta">
@@ -28,7 +26,6 @@ section: home
 				</div>
 {% endfor %}
 				<div class="clear"></div>
-				
 {% for post in site.posts limit:0 offset:1 %}
 				<div class="content-title">{% if post.categories == 'blog' %}Recent blog Post{% elsif post.categories == 'podcast' %}Recent Podcast{% endif %} {{ post.title }}</div>
 				<div class="meta">
@@ -48,7 +45,6 @@ section: home
 {% endfor %}
 					</p>
 				</div>
-				
 				<div class="clear"></div>
 			</div>
 {% endfor %}
