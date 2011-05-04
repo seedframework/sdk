@@ -2,7 +2,7 @@
   <p>some text</p>
 
 <div class="details">
-  &mdash; <a href="http://seedframework.org/team/">the Seed Framework Team</a>
+  &mdash; <a href="/team/">the Seed Framework Team</a>
 </div>
 
 <div class="clear"></div>
