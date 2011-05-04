@@ -1,0 +1,9 @@
+---
+title: Team
+layout: default
+permalink: /team/
+---
+
+Danny Angelo Carminati Grein
+Everton Fernando Patitucci da Silva
+Rafael Eduardo Gonchor

@@ -1,0 +1,3 @@
+markdown: maruku
+permalink: /:year/:month/:title
+org: seedframework

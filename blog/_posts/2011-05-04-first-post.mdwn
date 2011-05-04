@@ -1,0 +1,12 @@
+---
+title: First post!
+tags: [site news]
+byline: Danny Angelo Carminaty Grein
+layout: post
+---
+
+Hello and Welcome! 
+
+(mailto:admin@seedframework.org).
+
+Thanks for reading, and stay tuned!
