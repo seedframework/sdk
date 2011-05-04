@@ -11,7 +11,9 @@
 			<div class="inside">
 				<div class="content">
 					<div class="content-title" align="center">{{ page.title }}</div>
+					<!-- BEGIN MAIN CONTENT -->
 {{ content }}
+					<!-- END MAIN CONTENT -->
 				</div>
 			</div>
 		
@@ -24,7 +26,9 @@
 					</div>
 			
 					<div class="block second">
+					<!-- BEGIN SEARCH -->
 {% include menu-search.html %}
+					<!-- END SEARCH -->
 					</div>
 				
 					<div class="block third">
@@ -32,4 +36,6 @@
 				</div>
 				<div class="clear"></div>
 			</div>
+			<!-- BEGIN FOOTER -->
 {% include footer.html %}
+			<!-- END FOOTER -->
