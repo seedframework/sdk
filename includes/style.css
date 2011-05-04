@@ -80,6 +80,7 @@ hr {
 
 .content p {
     line-height: 1.2em;
+    font-size: 10px;
 }
 
 .content-title {
@@ -88,7 +89,10 @@ hr {
     color:#590000;
     margin-top: 10px;
 }
-
+.content h2
+{
+	color:#590000;
+}
 .content-title a {
     color:#598D32;
     text-decoration:none;
