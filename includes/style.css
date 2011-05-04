@@ -160,6 +160,7 @@ hr {
     background-repeat:no-repeat;
     background-position:left top;
     padding-left: 10px;
+    text-align: center;
 }
 #menu .menu a {
     height:26px;
