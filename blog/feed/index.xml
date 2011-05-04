@@ -4,11 +4,11 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Cyblog, the blog of the Cyborg Institute</title>
- <link href="http://www.seedframework.org/rss/atom.xml" rel="self"/>
- <link href="http://www.seedframework.org/"/>
+ <title>Seed Framework News</title>
+ <link href="http://fungos.github.com/sdk/rss/atom.xml" rel="self"/>
+ <link href="http://fungos.github.com/sdk/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://www.seedframework.org/</id>
+ <id>http://fungos.github.com/sdk/</id>
  <author>
    <name>Sam Kleinman</name>
    <email>kleinman@seedframework.org</email>
