@@ -4,21 +4,22 @@ layout: default
 permalink: /roadmap/
 section: roadmap
 ---
-
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.3" target="_new">0.1.3</a>
-    - Console subsystem [2</a>];
-    - Path object [19</a>];
-    - Texture UV animation [32</a>];
-    - OSK support [20</a>];
-    - Input Feedback [27</a>];
-    - Scripting system [51</a>];
-    - Debug menu [30</a>];
-    - Development Wiimote support (eg. Windows/Linux) [31</a>];
-    - Motion/Accelerometer correct implementation [50</a>];
-    - Browser support (ActiveX, Qt, Firebreath or Alchemy) [46</a>];
-    - Skinnable GUI [37</a>];
-    - Threaded modules [16</a>];
-
+<h2>Roadmap:</h2>
+<br />
+Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.3" target="_new">0.1.3</a><br />
+    - Console subsystem [<a href="http://github.com/fungos/seed/issues/#issue/2">2</a>];<br />
+    - Path object [<a href="http://github.com/fungos/seed/issues/#issue/19">19</a>];<br />
+    - Texture UV animation [<a href="http://github.com/fungos/seed/issues/#issue/32">32</a>];<br />
+    - OSK support [<a href="http://github.com/fungos/seed/issues/#issue/20">20</a>];<br />
+    - Input Feedback [<a href="http://github.com/fungos/seed/issues/#issue/27">27</a>];<br />
+    - Scripting system [<a href="http://github.com/fungos/seed/issues/#issue/51">51</a>];<br />
+    - Debug menu [<a href="http://github.com/fungos/seed/issues/#issue/30">30</a>];<br />
+    - Development Wiimote support (eg. Windows/Linux) [<a href="http://github.com/fungos/seed/issues/#issue/31">31</a>];<br />
+    - Motion/Accelerometer correct implementation [<a href="http://github.com/fungos/seed/issues/#issue/50">50</a>];<br />
+    - Browser support (ActiveX, Qt, Firebreath or Alchemy) [<a href="http://github.com/fungos/seed/issues/#issue/46">46</a>];<br />
+    - Skinnable GUI [<a href="http://github.com/fungos/seed/issues/#issue/37">37</a>];<br />
+    - Threaded modules [<a href="http://github.com/fungos/seed/issues/#issue/16">16</a>];<br />
+<br />
 Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.2" target="_new">0.1.2</a><br />
     - Atomic reference counting [<a href="http://github.com/fungos/seed/issues/#issue/23">23</a>];<br />
     - GUI widget overlap issue resolved [<a href="http://github.com/fungos/seed/issues/#issue/22">22</a>];<br />
