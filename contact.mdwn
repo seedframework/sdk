@@ -5,6 +5,10 @@ permalink: /contact/
 section: contact
 ---
 
-Danny Angelo Carminati Grein<br />
-Everton Fernando Patitucci da Silva<br />
-Rafael Eduardo Gonchor<br />
+<h1>Contacts</h1>
+For licensing questions contact: licensing@seedframework.org
+For other informations please contact: contact@seedframework.org
+
+Mailing lists
+Seed users: seed-users@googlegroups.com
+Seed developers: seed-dev@googlegroups.com
