@@ -5,10 +5,10 @@ permalink: /contact/
 section: contact
 ---
 
-<h1>Contacts</h1>
-For licensing questions contact: licensing@seedframework.org
-For other informations please contact: contact@seedframework.org
+<h3>Contacts</h3>
+For licensing questions contact: <a href="mailto:licensing@seedframework.org">licensing@seedframework.org</a>
+For other informations please contact: <a href="mailto:contact@seedframework.org">contact@seedframework.org</a>
 
-Mailing lists
-Seed users: seed-users@googlegroups.com
-Seed developers: seed-dev@googlegroups.com
+<h3>Mailing lists</h3>
+Seed users: <a href="mailto:seed-users@googlegroups.com">seed-users@googlegroups.com</a>
+Seed developers: <a href="mailto:seed-dev@googlegroups.com">seed-dev@googlegroups.com</a>
