@@ -4,8 +4,7 @@ layout: default
 permalink: /roadmap/
 section: roadmap
 ---
-<h2>Roadmap:</h2>
-<br />
+<h2>Roadmap</h2>
 Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.3" target="_new">0.1.3</a><br />
     - Console subsystem [<a href="http://github.com/fungos/seed/issues/#issue/2">2</a>];<br />
     - Path object [<a href="http://github.com/fungos/seed/issues/#issue/19">19</a>];<br />
