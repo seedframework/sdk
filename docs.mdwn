@@ -1,0 +1,8 @@
+---
+title: Documentation
+layout: default
+permalink: /docs/
+section: docs
+---
+
+Docs
