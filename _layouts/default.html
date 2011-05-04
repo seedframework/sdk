@@ -1,42 +1,36 @@
 {% include header-doc.html %}
-
-  <title>{{ page.title }} </title>
-
+<title>{{ page.title }}</title>
 {% include header-page.html %}
-
-  <div id="menu">
-    <ul id="menu">
-      {% include menu-top-core.html %}
-    </ul>
-  </div>
-
-   <div id="primary">
-     <div class="inside">
-       <div class="content">
-	 <div class="content-title" align="center">{{ page.title }}</div>
-	 {{ content }}
-       </div>
-     </div>
-
-      <hr class="hide" />
-
-      <div id="ancillary"><a name="menu"></a>
-	<div class="inside"> 
-	  <div class="block first">
-	  </div>
-	  
-	  <div class="block second">
-	    {% include menu-search.html %}
-
-	    {% include menu-internal.html %}
-	  </div>
-	  
-	  <div class="block third">
-	  </div>
-	  
-	</div>
-	  <div class="clear"></div>
-
-      </div>
+		<div id="menu">
+			<ul id="menu">
+			{% include menu-top-core.html %}
+			</ul>
+		</div>
+	
+		<div id="primary">
+			<div class="inside">
+				<div class="content">
+					<div class="content-title" align="center">{{ page.title }}</div>
+					{{ content }}
+				</div>
+			</div>
+		
+			<hr class="hide" />
+			
+			<div id="ancillary">
+				<a name="menu"></a>
+				<div class="inside"> 
+					<div class="block first">
+					</div>
+			
+					<div class="block second">
+					{% include menu-search.html %}
+					</div>
+				
+					<div class="block third">
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
 
 {% include footer.html %}
