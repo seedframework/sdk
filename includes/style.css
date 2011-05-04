@@ -192,6 +192,12 @@ ul#menu li a.current {
 #ancillary h1 {
     margin: 8px 0 0 0;
 }
+#ancillary h2 {
+    margin: 8px 0 0 0;
+}
+#ancillary h3 {
+    margin: 8px 0 0 0;
+}
 #ancillary .first {
     width: 250px;
 }
