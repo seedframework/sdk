@@ -137,7 +137,6 @@ ul#menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
 }
 ul#menu li {
 	display: block;
@@ -145,7 +144,7 @@ ul#menu li {
 	margin: 0 0 0 5px;
 }
 ul#menu li a {
-	height: 43px;
+	height: 38px;
 	color: #777;
 	text-decoration: none;
 	display: block;
