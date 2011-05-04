@@ -2,6 +2,7 @@
 title: Team
 layout: default
 permalink: /team/
+section: contact
 ---
 
 Danny Angelo Carminati Grein
