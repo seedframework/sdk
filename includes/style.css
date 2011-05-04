@@ -149,9 +149,6 @@ hr {
     width:100%;
     margin:0 auto;
 }
-#menu ul {
-	text-align: center;
-}
 #menu .menu li {
     float:left;
     line-height:25px;
