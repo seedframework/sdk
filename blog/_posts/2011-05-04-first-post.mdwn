@@ -3,7 +3,7 @@ title: First post!
 tags: [site news]
 byline: Danny Angelo Carminati Grein
 layout: post
-section: home
+section: news
 ---
 
 Hello and Welcome! 
