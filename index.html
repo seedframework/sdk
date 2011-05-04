@@ -5,62 +5,63 @@ section: home
 ---
 {% include content-index.mdwn %}
 
-				<div class="clear"></div>
-				
-				{% for post in site.posts limit:1 %}
-				<div class="content-title">{% if post.categories == 'blog' %}Current blog Post{% endif %} {{ post.title }}</div>
-				<div class="meta">
-					If you enjoy this post from our <a href="http://fungos.github.com/sdk/blog/">blog</a>, 
-					please <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">comment</a>,
-					<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
-					or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
-				</div>
+					<div class="clear"></div>
+					
+{% for post in site.posts limit:1 %}
+					<div class="content-title">{% if post.categories == 'blog' %}Current blog Post{% endif %} {{ post.title }}</div>
+					<div class="meta">
+						If you enjoy this post from our <a href="http://fungos.github.com/sdk/blog/">blog</a>, 
+						please <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">comment</a>,
+						<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
+						or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
+					</div>
 
-	{{ post.content }}
-	<div class="details">
-	  <p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
-	    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
-	    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
+{{ post.content }}
 	
-	    {% if post.categories == 'podcast' %}
-	    &bull; <a href="{{ post.enclosure }}">Direct Download</a>
-	    &bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
-	    {% endif %}
+					<div class="details">
+					  <p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
+					    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
+					    &bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
+					
+{% if post.categories == 'podcast' %}
+					    &bull; <a href="{{ post.enclosure }}">Direct Download</a>
+					    &bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
+{% endif %}
+					
+					    <em>tags:</em> {% for t in post.tags %}
+					    <a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
+					    {% endfor %}</p>
+					</div>
+{% endfor %}
 	
-	    <em>tags:</em> {% for t in post.tags %}
-	    <a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
-	    {% endfor %}</p>
-	</div>
-	{% endfor %}
-	
-	<div class="clear"></div>
-	
-	{% for post in site.posts limit:0 offset:1 %}
-	<div class="content-title">{% if post.categories == 'blog' %}Recent blog Post{% elsif post.categories == 'podcast' %}Recent Podcast{% endif %} {{ post.title }}</div>
-	<div class="meta">
-		If you enjoy this post,please <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">comment</a>,
-		<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
-		or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
-	</div>
-	
-	{{ post.content }}
-	
-	<div class="details">
-		<p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
-		&bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
-		&bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
-		
-		{% if post.categories == 'podcast' %}
-		&bull; <a href="{{ post.enclosure }}">Direct Download</a>
-		&bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
-		{% endif %}
-		
-		<em>tags:</em> {% for t in post.tags %}
-		<a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
-		{% endfor %}</p>
-	</div>
-	
-	<div class="clear"></div>
-	
-	</div>
-	{% endfor %}
+					<div class="clear"></div>
+					
+{% for post in site.posts limit:0 offset:1 %}
+					<div class="content-title">{% if post.categories == 'blog' %}Recent blog Post{% elsif post.categories == 'podcast' %}Recent Podcast{% endif %} {{ post.title }}</div>
+					<div class="meta">
+						If you enjoy this post,please <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">comment</a>,
+						<a href="http://fungos.github.com/sdk/blog/archive/">read more</a>,
+						or <a href="http://feeds2.feedburner.com/seedframework/blog">subscribe</a>.
+					</div>
+					
+{{ post.content }}
+					
+					<div class="details">
+						<p>&mdash; {{ post.byline }} on {{ post.date | date_to_long_string }} 
+						&bull; <a href="http://fungos.github.com/sdk{{ post.url }}">permalink</a>
+						&bull; <a href="http://fungos.github.com/sdk{{ post.url }}#disqus_thread">commentary</a><br />
+						
+{% if post.categories == 'podcast' %}
+						&bull; <a href="{{ post.enclosure }}">Direct Download</a>
+						&bull; <a href="http://fungos.github.com/sdk/feed/podcast.xml">Podcast Subscription Feed</a> &bull;<br />
+{% endif %}
+						
+						<em>tags:</em> {% for t in post.tags %}
+						<a href='http://www.google.com/search?q={{ t | escape }}+site:fungos.github.com/sdk'>{{ t }}</a>{% if forloop.last == false %}, {% endif %}
+{% endfor %}
+						</p>
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+{% endfor %}
