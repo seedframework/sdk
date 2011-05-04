@@ -3,7 +3,7 @@
 {% include header-page.html %}
 		<div id="menu">
 			<ul id="menu">
-			{% include menu-top-core.html %}
+{% include menu-top-core.html %}
 			</ul>
 		</div>
 	
@@ -11,7 +11,7 @@
 			<div class="inside">
 				<div class="content">
 					<div class="content-title" align="center">{{ page.title }}</div>
-					{{ content }}
+{{ content }}
 				</div>
 			</div>
 		
@@ -24,7 +24,7 @@
 					</div>
 			
 					<div class="block second">
-					{% include menu-search.html %}
+{% include menu-search.html %}
 					</div>
 				
 					<div class="block third">
@@ -32,5 +32,4 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-
 {% include footer.html %}
