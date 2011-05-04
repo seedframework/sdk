@@ -5,47 +5,47 @@ permalink: /roadmap/
 section: roadmap
 ---
 <h2>Roadmap</h2>
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.3" target="_new">0.1.3</a><br />
-    - Console subsystem [<a href="http://github.com/fungos/seed/issues/#issue/2">2</a>];<br />
-    - Path object [<a href="http://github.com/fungos/seed/issues/#issue/19">19</a>];<br />
-    - Texture UV animation [<a href="http://github.com/fungos/seed/issues/#issue/32">32</a>];<br />
-    - OSK support [<a href="http://github.com/fungos/seed/issues/#issue/20">20</a>];<br />
-    - Input Feedback [<a href="http://github.com/fungos/seed/issues/#issue/27">27</a>];<br />
-    - Scripting system [<a href="http://github.com/fungos/seed/issues/#issue/51">51</a>];<br />
-    - Debug menu [<a href="http://github.com/fungos/seed/issues/#issue/30">30</a>];<br />
-    - Development Wiimote support (eg. Windows/Linux) [<a href="http://github.com/fungos/seed/issues/#issue/31">31</a>];<br />
-    - Motion/Accelerometer correct implementation [<a href="http://github.com/fungos/seed/issues/#issue/50">50</a>];<br />
-    - Browser support (ActiveX, Qt, Firebreath or Alchemy) [<a href="http://github.com/fungos/seed/issues/#issue/46">46</a>];<br />
-    - Skinnable GUI [<a href="http://github.com/fungos/seed/issues/#issue/37">37</a>];<br />
-    - Threaded modules [<a href="http://github.com/fungos/seed/issues/#issue/16">16</a>];<br />
+Seed <a href='http://github.com/fungos/seed/issues/labels/0.1.3' target='_new'>0.1.3</a><br />
+    - Console subsystem [<a href='http://github.com/fungos/seed/issues/#issue/2'>2</a>];<br />
+    - Path object [<a href='http://github.com/fungos/seed/issues/#issue/19'>19</a>];<br />
+    - Texture UV animation [<a href='http://github.com/fungos/seed/issues/#issue/32'>32</a>];<br />
+    - OSK support [<a href='http://github.com/fungos/seed/issues/#issue/20'>20</a>];<br />
+    - Input Feedback [<a href='http://github.com/fungos/seed/issues/#issue/27'>27</a>];<br />
+    - Scripting system [<a href='http://github.com/fungos/seed/issues/#issue/51'>51</a>];<br />
+    - Debug menu [<a href='http://github.com/fungos/seed/issues/#issue/30'>30</a>];<br />
+    - Development Wiimote support (eg. Windows/Linux) [<a href='http://github.com/fungos/seed/issues/#issue/31'>31</a>];<br />
+    - Motion/Accelerometer correct implementation [<a href='http://github.com/fungos/seed/issues/#issue/50'>50</a>];<br />
+    - Browser support (ActiveX, Qt, Firebreath or Alchemy) [<a href='http://github.com/fungos/seed/issues/#issue/46'>46</a>];<br />
+    - Skinnable GUI [<a href='http://github.com/fungos/seed/issues/#issue/37'>37</a>];<br />
+    - Threaded modules [<a href='http://github.com/fungos/seed/issues/#issue/16'>16</a>];<br />
 <br />
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.2" target="_new">0.1.2</a><br />
-    - Atomic reference counting [<a href="http://github.com/fungos/seed/issues/#issue/23">23</a>];<br />
-    - GUI widget overlap issue resolved [<a href="http://github.com/fungos/seed/issues/#issue/22">22</a>];<br />
-    - TextArea/Label dynamic adjustment [<a href="http://github.com/fungos/seed/issues/#issue/10">10</a>];<br />
-    - Correct platfrom integration [<a href="http://github.com/fungos/seed/issues/#issue/17">17</a>,<a href="http://github.com/fungos/seed/issues/#issue/25">25</a>];<br />
-    - Widget events with relative position [<a href="http://github.com/fungos/seed/issues/#issue/48">48</a>];<br />
-    - Refactored GUI Button [<a href="http://github.com/fungos/seed/issues/#issue/36">36</a>];<br />
-    - Correct interpretation of rotation/scale of objects [<a href="http://github.com/fungos/seed/issues/#issue/24">24</a>,<a href="http://github.com/fungos/seed/issues/#issue/47">47</a>];<br />
-    - TextInput widget [<a href="http://github.com/fungos/seed/issues/#issue/38">38</a>];<br />
+Seed <a href='http://github.com/fungos/seed/issues/labels/0.1.2' target='_new'>0.1.2</a><br />
+    - Atomic reference counting [<a href='http://github.com/fungos/seed/issues/#issue/23'>23</a>];<br />
+    - GUI widget overlap issue resolved [<a href='http://github.com/fungos/seed/issues/#issue/22'>22</a>];<br />
+    - TextArea/Label dynamic adjustment [<a href='http://github.com/fungos/seed/issues/#issue/10'>10</a>];<br />
+    - Correct platfrom integration [<a href='http://github.com/fungos/seed/issues/#issue/17'>17</a>,<a href='http://github.com/fungos/seed/issues/#issue/25'>25</a>];<br />
+    - Widget events with relative position [<a href='http://github.com/fungos/seed/issues/#issue/48'>48</a>];<br />
+    - Refactored GUI Button [<a href='http://github.com/fungos/seed/issues/#issue/36'>36</a>];<br />
+    - Correct interpretation of rotation/scale of objects [<a href='http://github.com/fungos/seed/issues/#issue/24'>24</a>,<a href='http://github.com/fungos/seed/issues/#issue/47'>47</a>];<br />
+    - TextInput widget [<a href='http://github.com/fungos/seed/issues/#issue/38'>38</a>];<br />
 <br />
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.1.1" target="_new">0.1.1</a> [<a href="http://github.com/fungos/seed">trunk</a>]<br />
-    <strike>- Refactored rendering system [<a href="http://github.com/fungos/seed/issues/#issue/5">5</a>,<a href="http://github.com/fungos/seed/issues/#issue/45">45</a>];</strike><br />
+Seed <a href='http://github.com/fungos/seed/issues/labels/0.1.1' target='_new'>0.1.1</a> [<a href='http://github.com/fungos/seed'>trunk</a>]<br />
+    <strike>- Refactored rendering system [<a href='http://github.com/fungos/seed/issues/#issue/5'>5</a>,<a href='http://github.com/fungos/seed/issues/#issue/45'>45</a>];</strike><br />
     <strike>- Viewports;</strike><br />
     <strike>- Scene objects;</strike><br />
-    <strike>- Image refactoring to Texture [<a href="http://github.com/fungos/seed/issues/#issue/6">6</a>];</strike><br />
+    <strike>- Image refactoring to Texture [<a href='http://github.com/fungos/seed/issues/#issue/6'>6</a>];</strike><br />
     - Support to render targets (render to texture);<br />
-    <strike>- Basic Mesh support [<a href="http://github.com/fungos/seed/issues/#issue/9">9</a>];</strike><br />
-    - Sprite and SpriteObject refactoring and optimization [<a href="http://github.com/fungos/seed/issues/#issue/7">7</a>];<br />
-    - Semaphores [<a href="http://github.com/fungos/seed/issues/#issue/49">49</a>];<br />
-    - MutexLocker [<a href="http://github.com/fungos/seed/issues/#issue/26">26</a>];<br />
+    <strike>- Basic Mesh support [<a href='http://github.com/fungos/seed/issues/#issue/9'>9</a>];</strike><br />
+    - Sprite and SpriteObject refactoring and optimization [<a href='http://github.com/fungos/seed/issues/#issue/7'>7</a>];<br />
+    - Semaphores [<a href='http://github.com/fungos/seed/issues/#issue/49'>49</a>];<br />
+    - MutexLocker [<a href='http://github.com/fungos/seed/issues/#issue/26'>26</a>];<br />
 <br />
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.0.4" target="_new">0.0.4</a><br />
-    <strike>- Helper macros new/delete/acquire/release [<a href="http://github.com/fungos/seed/issues/#issue/18">18</a>];</strike><br />
-    <strike>- iPhone landscape/portrait mode emulation [<a href="http://github.com/fungos/seed/issues/#issue/52">52</a>];</strike><br />
+Seed <a href='http://github.com/fungos/seed/issues/labels/0.0.4' target='_new'>0.0.4</a><br />
+    <strike>- Helper macros new/delete/acquire/release [<a href='http://github.com/fungos/seed/issues/#issue/18'>18</a>];</strike><br />
+    <strike>- iPhone landscape/portrait mode emulation [<a href='http://github.com/fungos/seed/issues/#issue/52'>52</a>];</strike><br />
     <strike>- Leak report;</strike><br />
-    <strike>- DLL Build [<a href="http://github.com/fungos/seed/issues/#issue/53">53</a>];</strike><br />
-    <strike>- Singleton refactoring [<a href="http://github.com/fungos/seed/issues/#issue/15">15</a>];</strike><br />
+    <strike>- DLL Build [<a href='http://github.com/fungos/seed/issues/#issue/53'>53</a>];</strike><br />
+    <strike>- Singleton refactoring [<a href='http://github.com/fungos/seed/issues/#issue/15'>15</a>];</strike><br />
 <br />
-Seed <a href="http://github.com/fungos/seed/issues/labels/0.0.2" target="_new">0.0.2</a><br />
+Seed <a href='http://github.com/fungos/seed/issues/labels/0.0.2' target='_new'>0.0.2</a><br />
     <strike>- Current official version;</strike><br />
