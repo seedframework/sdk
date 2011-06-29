@@ -60,6 +60,7 @@ section: features
 - Resource Manager module;<br />
 	- Resource Garbage Collection;<br />
 <br />
+<br />
 <sup><a name="note1">1</a></sup> Nintendo Wii is available to Official Nintendo Licensed Wii Developers. If you want to evaluate Seed Framework for the Wii, you must use Nintendo's third party validation tool to request access to the code. For licensing details, click here.<br />
 <br />
 <sup><a name="note2">2</a></sup> iPhone need special licensing terms, for details read License.<br />
