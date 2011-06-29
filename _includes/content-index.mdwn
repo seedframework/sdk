@@ -1,4 +1,4 @@
 					<div id="content-menu">
-						<p>some text</p>
+						<p>Website in development!</p>
 						<div class="clear"></div>
 					</div>

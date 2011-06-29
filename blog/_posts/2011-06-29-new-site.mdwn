@@ -1,0 +1,10 @@
+---
+title: New site!
+tags: [site news]
+byline: Danny Angelo Carminati Grein
+layout: post
+section: news
+---
+
+I'm changing the website from googlesites to gh-pages, so the layout can be a little weird on some browsers. Anyway, it is better than googlesites!
+
