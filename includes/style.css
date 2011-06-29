@@ -102,6 +102,19 @@ hr {
     color:#598D32;
     text-decoration:none;
 }
+
+.content ul {
+	line-height: 1.2em;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.content li {
+	line-height: 1.2em;
+	font-size: 12px;
+}
+
 #content-menu {
     font-size: .8969em;
     padding: 0px 1.5em;
@@ -343,9 +356,4 @@ input[type="submit"]{
 	border: solid 1px;
 	line-height: 1em;
 	font-size: 1em;
-}
-
-li {
-	line-height: 1.2em;
-	font-size: 12px;
 }
