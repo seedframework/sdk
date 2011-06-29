@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Seed Framework News</title>
- <link href="http://fungos.github.com/sdk/rss/atom.xml" rel="self"/>
- <link href="http://fungos.github.com/sdk/"/>
+ <link href="http://www.seedframework.org/rss/atom.xml" rel="self"/>
+ <link href="http://www.seedframework.org/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://fungos.github.com/sdk/</id>
+ <id>http://www.seedframework.org/</id>
  <author>
    <name>Sam Kleinman</name>
    <email>kleinman@seedframework.org</email>
