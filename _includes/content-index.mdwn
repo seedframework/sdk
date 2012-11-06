@@ -1,4 +1,0 @@
-					<div id="content-menu">
-						<p>Website in development!</p>
-						<div class="clear"></div>
-					</div>
