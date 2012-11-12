@@ -61,18 +61,15 @@
 			}
 			
 			function setScore(value) {
-				alert("setScore called " + value);
 				oldScore = getScore();
 					
 				if (value > oldScore)
 				{
 					createCookie("score", value, 15);
-					alert("New Score: " + value);
 				}
 			}
 			
 			function getScore() {
-				alert("getScore called");
 				var oldScore = readCookie("score");
 				if (!oldScore)
 					oldScore = 0;
